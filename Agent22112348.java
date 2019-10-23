@@ -469,10 +469,7 @@ public class Agent22112348 implements Agent{
                                 }
                                 break;
                             case KING:
-                                if(playPrince(6) == 0){
-                                    playKing(5);
-                                    play = c;
-                                }
+                                playPrince(6);
                                 break;
                         }
                         break;
@@ -494,10 +491,8 @@ public class Agent22112348 implements Agent{
                                 play = c;
                                 break;
                             case PRINCE: 
-                                if(playKing(5) == 0){
-                                    playPrince(6);
-                                    play = c;
-                                }
+                                playPrince(6);
+                                play = c;
                                 break;
                         }
                         break;
