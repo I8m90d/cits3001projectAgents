@@ -5,10 +5,9 @@ import java.util.Iterator;
 import java.lang.Math;
 
 /**
- * Write a description of class Agent22112348 here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Viet 22112348
+ * To test my agent, make sure to import agent.* or agent.Agent22112348
+ * Then call the constructor and run test
  */
 public class Agent22112348 implements Agent{
     private Random rand;
